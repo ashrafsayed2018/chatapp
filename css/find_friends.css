@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background-image: url('../images/bodybg.png');
+}
+.navbar-inverse {
+    background: #25D36682!important;
+    border: none;
+}
+.col-xs-12 {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.navbar-inverse .navbar-brand {
+    color: #f0f0f0;
+}
+.card {
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 8px rgb(202, 195, 195);
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+    background: white;
+    padding: 3rem 0 0 0;
+}
+.card img {
+    height: 200px;
+}
+.title {
+    color:grey;
+    font-size: 1.2rem;
+}
+.card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    color:white;
+    background: #000;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+.card button:hover , .card a:hover {
+    opacity: .7;
+}
+form.seacrh-form  {
+    margin-bottom: 10rem;
+}
+form.seacrh-form input[type="text"] {
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #9999;
+    float: left;
+    width: 75%;
+    background: #343a43!important;
+    color:white;
+    border-radius: 0;
+}
+form.seacrh-form button {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    border-radius: 0;
+}
+form.search_form::after {
+    content: '';
+    clear: both;
+    display: table;
+}
